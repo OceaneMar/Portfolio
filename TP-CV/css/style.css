@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat" ;
+    src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Existence";
+    src: url("../fonts/Existence-StencilLight.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: #181818;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+.primary {
+    color: #495c56;
+}
+
+.secondary {
+    color: #7F9A90;
+}
+
+.alternative {
+    color: #b9aafa;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.imgcenter {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+h1 {
+    font-family: Existence, Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: white;
+    background-color: #7F9A90;
+    height: 100px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: left;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #495c56;
+    margin: 0 0 30px 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #7F9A90;
+}
+
+a:hover {
+    color: #b9aafa;
+}
+
+.chome {
+    margin: 0 0 0 20px;
+}
+
+.chome p {
+    margin: 40px 0;
+}
+
+
+/* Navigation */
+
+#nav {
+    padding: 5px 0; 
+    margin: 0px 0px 80px; 
+    text-align: center;
+    background-color: white;
+}
+
+#nav li {
+    display: inline;
+    list-style: none;
+    border-right: #b9aafa 1px solid;
+}
+
+#nav a {
+    display: inline-block;
+    margin: 0px 20px;
+    text-transform: uppercase;
+    color: #7F9A90;
+}
+
+#nav a:hover {
+    color: #b9aafa;
+}
+
+
+/* Image de bas de page*/
+
+#banner {
+    background-image: url("../images/daiga-ellaby-ClWvcrkBhMY-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 250px;
+    width: 100%;
+    opacity: 0.8;
+    margin-top: 40px;
+}
+
+#banner .contentb {
+    border: 1px solid white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.contentb a {
+    color: white;
+}
+
+#banner p {
+    color: white;
+    margin: 10px;
+}
+
+
+/*tableau*/
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+th {
+    background-color: #495c56;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+td {
+    border: #495c56 solid 1px;
+    padding: 10px;
+}
+
+
+/*Liste*/
+
+ul{
+    margin-left: 20px;
+}
+
+li {
+    margin : 10px 0;
+    list-style-type: none;
+}
+
+
+/*Formulaire*/
+
+form {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+form > section { 
+    padding: 2px;
+    margin: 20px 0;
+}
+
+form > label {
+    padding: 2px;
+    margin: 20px 0;
+}

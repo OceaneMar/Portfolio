@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link type="text/CSS" rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Portfolio</h1>
+            <nav>
+                <ul id="nav">
+                    <li><a href="Index.html">Accueil</a></li>
+                    <li><a href="parcours.html">Mon parcours</a></li>
+                    <li><a href="experiences.html">Mes expériences</a></li>
+                    <li><a href="competences.html">Mes compétences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="connexion.html">Connexion</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Formulaire de contact</h2>
+            <p>Laissez-moi un message !</p>
+            <form action="" method="POST">
+                <section>
+                    <label for="identite">Identité</label>
+                    <br>
+                    <input type="text" name="identite" id="nom" placeholder="Nom">
+                    <input type="text" name="identite" id="prenom" placeholder="Prénom">
+                </section>
+
+                <section>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="adresse@mail.com">
+                </section>
+
+                <section>
+                    <label for="societe">Société</label>
+                    <br>
+                    <input type="text" name="societe" id="societe" placeholder="Nom de votre entreprise">
+                </section>
+
+                <section>
+                    <label for="telephone">Téléphone</label>
+                    <br>
+                    <input type="tel" name="telephone" id="telephone" placeholder="0102030405">
+                </section>
+
+                <section>
+                    <label for="message">Votre message</label>
+                    <br>
+                    <textarea name="message" id="message" rows="5" cols="40"></textarea>
+                </section>
+
+                <section>
+                    <label for="autorisation">Autorisez-vous les accords marketing et RGPD ?</label>
+                    <br>
+                    <input type="checkbox" name="autorisation" id="marketing" value="marketing">
+                    <label for="marketing">Marketing</label><br>
+                    <input type="checkbox" name="autorisation" id="RGPD" value="RGPD">
+                    <label for="RGPD">RGPD</label>
+                </section>
+
+                <section>
+                    <input type="submit" value="Envoyer">
+                </section>
+            </form>
+
+            <footer>
+                <div id="banner">
+                    <div class="contentb">
+                        <p><strong>Contactez-moi :</strong></p>
+                        <p>00.00.00.00.00</p>
+                        <p>abcd@gmail.com</p>
+                        <p>X rue de la lavande, 44000 NANTES</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
